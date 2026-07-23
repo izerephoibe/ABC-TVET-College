@@ -1,3 +1,4 @@
 this project is about website.
 learning about Version control systems by using git and github
 we will also learn the basics of Javascript and its framework.
+we will also study about the UI/UX Design
