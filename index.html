@@ -4,66 +4,62 @@
     <title>ABCD TVET College</title>
 
     <link rel="stylesheet" href="style.css" type="text/css"> 
-    <style>
-        h2{
-            color: #0de944;
-        }
-    </style>
+    
 
 <body>
-    <center>
-    <h1 class="dev">ABCD TVET College</h1>
+    
+    <h1>ABCD TVET COLLEGE</h1>
     <h2>Student Admission and Course Registration Form</h2>
     
     <p>
         Please  complete this application from carefull.  Fields marked with (*) are compulsory.
     </p>
-</center>
-    <h3>1.Personal Information</h3>
-
+      
+    <legend>1.Personal Information</legend>
+<form>
     <fieldset>
         
-        <label style="color: blue;">first name * </label><br>
+        <label>first name * </label><br>
 <input type="text" placeholder="Enter your first Name">
 <br><br>
 
 <label>last Name * </label><br>
-<input type="text" placeholder="Enter last Name">
+<input type="text" placeholder="Enter last Name" required>
 <br><br>
         
         <label>Gender</label><br>
-        <input type="radio" name="gender" value="Male"> Male
-        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female
         <br><br>
 
         <label class="try">Date of Birth</label><br>
-        <input type="date" name="dob">
+        <input type="date" name="dob" required>
         <br><br>
 
         <label>Age *</label><br>
-        <input type="text" placeholder="Enter a">
+        <input type="text" placeholder="Enter a" required>
         <br><br>
 
         <label class="NTO">Nationality*</label><br>
-        <input type="text" placeholder="Enter Nationality">
+        <input type="text" placeholder="Enter Nationality" required>
         <br><br>
         <label>National ID / prossport Number * </label>
         <br><br>
-        <input type="text" placeholder="Enter ID Number">
+        <input type="text" placeholder="Enter ID Number" required>
 
     </fieldset>
 
-<h3>2.contact Information</h3>
+<legend>2.contact Information</legend>
 
     <fieldset>
          <label>Email Address *</label><br>
-    <input type="email" placeholder="example@email.com">
+    <input type="email" placeholder="example@email.com" required>
     <br><br>
 <label>Telephone Number</label><br>
-<input type="tel" placeholder="+2507xxxxxxxx">
+<input type="tel" placeholder="+2507xxxxxxxx" required>
 <br><br>
 <label>Home Address</label><br>
-<textarea placeholder="Enter your home address"></textarea>
+<textarea placeholder="Enter your home address" required></textarea>
 <br><br>
 <label>District</label><br>
 
@@ -81,7 +77,7 @@
     </fieldset>
 
 
-    <h3>3.Academic Information</h3>
+    <legend>3.Academic Information</legend>
 
     <fieldset>
         
@@ -99,11 +95,11 @@
         <br><br>
         <label>your completed *</label>
         <br>
-        <input type="text"placeholder=" ">
+        <input type="text"placeholder="enter you completed" required>
         <br><br>
     </fieldset>
 
-<h3>4.Departement selection</h3>
+<legend>4.Departement selection</legend>
 
 <fieldset>
 
@@ -121,7 +117,7 @@
         
     </fieldset>
 
-   <h3>5. Course Registration</h3>
+   <legend>5. Course Registration</legend>
    <fieldset>
     <label> choose Course * </label>
     <br><br>
@@ -136,15 +132,15 @@
     </select>
     <br><br>
  <label>study Mode * </label><br>
-        <input type="radio" name="study mode" value="Full Time"> full time
-        <input type="radio" name="study mode" value="Part Time"> Part time
-         <input type="radio" name="study mode" value="Weeked"> weeked
+        <input type="radio" name="study mode" value="Full Time" required> full time
+        <input type="radio" name="study mode" value="Part Time" required> Part time
+         <input type="radio" name="study mode" value="Weeked" required> weeked
         <br><br>
         <label>Prefrred Intake</label>
-        <input type="datetime" name="----">
+        <input type="datetime" name="----" required>
         <br><br>
    </fieldset>
-    <h3>6.computer Skills</h3>
+    <legend>6.computer Skills</legend>
     <fieldset>
     <label>select all the computer skill you already have.</label>
     <br>
@@ -154,7 +150,7 @@
        <input type="checkbox">python<br>
         <input type="checkbox">Database<br>
 </fieldset>
-    <h3>7.parent/Guardian Information</h3>
+    <legend>7.parent/Guardian Information</legend>
     <fieldset>
         <label>guardian Name * </label><br>
         <input type="text"placeholder="Enter guardian Name">
@@ -165,19 +161,18 @@
         <input type="tel"placeholder="+2507xxxxxxxx"><br>
       
     </fieldset>
-    <h3>8.Declaration</h3>
+    <legend>8.Declaration</legend>
     <fieldset>
     <label>
         I declare that the Information provided in this application Formis true and complet.
     </label><br>
     <input type="checkbox"> Iagree to the iterm and condition.<br>
-
-
-   </fieldset>
-   <center>
-    <input class="sub" type="submit"value="submit application">
-    <input class="rest" type="reset"value="clear form">
-    <h2> ABC TVERT College</h2>
+    </fieldset>
+</form>
+        </body>
+   <footer>
+   <fieldset>
+   <h2> ABC TVERT COLLEGE</h2>
     <p>kigali, Rwanda</p>
     <p> Email:
     <a href="info@abctvet.rw">info@abctvet.rw</a>
@@ -185,9 +180,13 @@
     <p>Telephone:
     <a href="tel:+250788123456">+250788123456</a>
     </p>
+    </fieldset>
+    <fieldset>
     <p>&copy;2026 ABC TVERT college.All Rights Reserved.</p>
-   </center>
-</body>
+    </footer>
+    </fieldset> 
+
+
 </html>
 
 
