@@ -11,6 +11,10 @@ p{
 }
 body{
     background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 30px;
+    line-height: 1.6;
 }
 legend{
     background-color: rgb(3, 3, 60);
@@ -19,6 +23,7 @@ legend{
 }
 form{
     font-size:20px ;
+    
 
     
 }
@@ -32,6 +37,8 @@ footer a{
     text-decoration: none;
 }
 ::placeholder{
-    color: gray;
+    color: green;
+    font-style: italic;
+    font-size: 12px;
     
 }
