@@ -95,3 +95,75 @@
 // let totalCost = product.price* product.quantity;
 // console.log(product.name);
 // console.log("total cost:"+totalCost);
+
+// const employee = {
+//   name: "Alice",
+//   position: "Accountant",
+//   salary: 10000
+// };
+// const increase = 50000;
+// if (employee.salary <increase) {
+//   console.log("the updated salary")
+// }
+// console.log( employee.name);
+// console.log( employee.position);
+// console.log(employee.salary);// Create a user object
+
+// const user = {
+//   username: "admin",
+//   password: "12345"
+// };
+
+// let EnterUsername = "admin";
+// let EnterPassword = "12345";
+
+// if (
+//   EnterUsername === user.username &&
+//   EnterPassword === user.password
+// ) {
+//   console.log("Login successful!");
+// } else {
+//   console.log("Invalid username or password.");
+// }
+
+
+// const book = {
+//   title: "Things Fall Apart",
+//   author: "Chinua Achebe",
+//   isAvailable: true
+// };
+
+// if (book.isAvailable) {
+//   console.log ("book is available ");
+// } else {
+//   console.log(" book is not vailable");
+// }
+
+// const car = {
+//   brand: "Toyota",
+//   model: "Corolla",
+//   year: 2026
+// };
+// console.log("This car is ");
+
+
+
+// const contact = {
+//   name: "Jane Smith",
+//   phoneNumber:"07888856"
+// };
+
+// console.log(contact.name);
+// console.log(contact.phoneNumber);
+
+
+// const studentMarks = [85, 92, 78, 90, 88];
+// let totalMarks = 0;
+// console.log("Student Marks");
+// for (let i = 0; i < studentMarks.length; i++) {
+//   console.log(studentMarks);
+//   totalMarks += studentMarks[i];
+// }
+// const averageMark = totalMarks / studentMarks.length;
+// console.log('Average Mark');
+
