@@ -167,3 +167,30 @@
 // const averageMark = totalMarks / studentMarks.length;
 // console.log('Average Mark');
 
+
+// const numbers=';'
+// let largest = numbers[0];
+// let smallest = numbers[0];
+// for (let i = 1; i < numbers.length; i++) {
+//   if (numbers[i] > largest) {
+//     largest = numbers[i];
+//   }
+//   if (numbers[i] < smallest) {
+//     smallest = numbers[i];
+//   }
+// }
+// console.log("Largest Number");
+// console.log("Smallest Number");
+
+// const numbers =';'
+// const evenNumbers = [];
+// const oddNumbers = [];
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] % 2 === 0) {
+//    console.log("evenNumber"); 
+//   }
+//   else{
+//     console.log("oddNumber")
+//   }
+// }
+
