@@ -96,6 +96,7 @@
 // console.log(product.name);
 // console.log("total cost:"+totalCost);
 
+// exercise 3
 // const employee = {
 //   name: "Alice",
 //   position: "Accountant",
@@ -103,11 +104,14 @@
 // };
 // const increase = 50000;
 // if (employee.salary <increase) {
-//   console.log("the updated salary")
+//   employee.salary=employee.salary+increase;
 // }
 // console.log( employee.name);
 // console.log( employee.position);
-// console.log(employee.salary);// Create a user object
+// console.log(employee.salary);
+// Create a user object
+
+// exercise 4
 
 // const user = {
 //   username: "admin",
@@ -137,14 +141,15 @@
 //   console.log ("book is available ");
 // } else {
 //   console.log(" book is not vailable");
-// }
+// // }
 
 // const car = {
 //   brand: "Toyota",
 //   model: "Corolla",
 //   year: 2026
 // };
-// console.log("This car is ");
+// console.log("This car is:","brand:"+car.brand);
+// console.log()
 
 
 
@@ -168,7 +173,12 @@
 // console.log('Average Mark');
 
 
-// const numbers=';'
+// const numbers= new Array(5);
+// numbers[0]=Number(prompt("enter first number"));
+// numbers[1]=Number(prompt("enter second number"));
+// numbers[2]=Number(prompt("enter third number"));
+// numbers[3]=Number(prompt("enter fourth number"));
+// numbers[4]=Number(prompt("enter fifth number"));
 // let largest = numbers[0];
 // let smallest = numbers[0];
 // for (let i = 1; i < numbers.length; i++) {
@@ -179,18 +189,40 @@
 //     smallest = numbers[i];
 //   }
 // }
-// console.log("Largest Number");
-// console.log("Smallest Number");
+// console.log("Largest Number",+largest);
+// // console.log("Smallest Number"+smallest);
 
-// const numbers =';'
-// const evenNumbers = [];
-// const oddNumbers = [];
+// const numbers = new Array(6);
+// numbers[0]=Number(prompt("enter  number"));
+// numbers[1]=Number(prompt("enter number"));
+// numbers[2]=Number(prompt("enter  number"));
+// numbers[3]=Number(prompt("enter  number"));
+// numbers[4]=Number(prompt("enter  number"));
+// numbers[5]=Number(prompt("enter  number"));
+
 // for (let i = 0; i < numbers.length; i++) {
 //   if (numbers[i] % 2 === 0) {
-//    console.log("evenNumber"); 
+//    console.log("evenNumber:"+numbers[i]); 
 //   }
 //   else{
-//     console.log("oddNumber")
+//     console.log("oddNumber:"+numbers[i]);
 //   }
 // }
+
+
+// let employee={
+//     name:prompt("enter employee name:"),
+//     position:prompt("enter employee position"),
+//     salary:Number(prompt("enter employee salary"))
+// };
+// let limit=Number(prompt("enter salary limit"));
+// let increment=Number(prompt("enter increment amount"));
+// if(employee.salary <limit){
+//     employee.salary=employee.salary+increment;
+// }
+// console.log("employee Name:",employee.name);
+// console.log("position:",employee.position);
+// console.log("final salary:",employee.salary);
+// const addnumber=(a,b)=>a+b
+// document.write (addnumber(2,3));
 
