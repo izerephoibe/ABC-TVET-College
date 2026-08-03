@@ -216,7 +216,95 @@
 // console.log(number[i]);
 // }
 
-let scores=[40,30,50,78,89,55,];
-let count=0;
-for(let)
+    
+// exerice 7
+// let scores = [45, 67, 89, 30, 50, 78, 49, 55];
+// let count = 0;
 
+// for (let i = 0; i < scores.length; i++) {
+//     if (scores[i] >= 50) {
+//         count++;
+//     }
+// }
+
+// console.log("Students who scored 50 or above: " + count);
+
+// exerice 8
+
+// let numbers = [-5, 10, -8, 20, 15, -2, 30];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] > 0) {
+//         console.log(numbers[i]);
+//     }
+// }
+// Q13
+// function checkAge(age) {
+//     if (age >= 18) {
+//         console.log("Adult");
+//     } else {
+//         console.log("Minor");
+//     }
+// }
+
+// checkAge();
+// checkAge();
+// Q14
+// function maxOfThree(a, b, c) {
+//     return Math.max(a, b, c);
+// }
+
+// console.log(maxOfThree(10, 25, 18));
+// Q15
+// function calculateAverage(a, b, c) {
+//     return (a + b + c);
+// }
+
+// console.log(calculateAverage(10, 20, 30));
+
+// Q16
+// function isEven(num) {
+//     return num % 2 === 0;
+// }
+// console.log(isEven(8));
+// console.log(isEven(7));
+
+// Q17
+// function operate(a, b, func) {
+//     return func(a, b);
+// }
+
+// Q18
+// function add(a, b) {
+//     return a + b;
+// }
+
+// function multiply(a, b) {
+//     return a * b;
+// }
+
+// console.log(operate(5, 3, add));
+// console.log(operate(5, 3, multiply));
+
+// Q19
+// let string = "123";
+// let number = parseInt(string);
+// console.log(number);
+
+// Q20
+// Q21
+// function toUpperCase(string) {
+//     return string.toUpperCase();
+// }
+// console.log(toUpperCase("hello"));
+
+// Q22
+// function introduce() {
+//     console.log("My name is " + this.name);
+// }
+
+// let person = { name: "John" };
+
+// introduce.call(person);
+const divide=(a,b)=>a/b
+console.log(divide(2,4));
