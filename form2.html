@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sign up</title>
+        </head>
+        <body>
+            <style>
+                .error{
+                    color: red;
+                }
+                    
+            
+            </style>
+            <div id="form-div">
+                <h3>sign up</h3>
+            <form id="form" onsubmit="return validateForm()">
+        <label>username</label><br>
+        <input type="text" id="username" placeholder="username"><br>
+        <div class="error" id="userError"></div>
+        <label>Email</label><br>
+        <input id="email" type="text" placeholder="email"><br>
+        <div class="error" id="EmailError"></div>
+        <label>password</label><br>
+        <input id="password" type="text" placeholder="password"><br>
+        <div class="error" id="passwordError"></div>
+        <button type="submit">sign up</button>
+    </form>
+    </div>
+    <script>
+        function showError(id,message){
+            document.getElementById(id).innerHTML=message;
+        }
+
+        function validateForm(){
+            var username=document.getElementById("username").value;
+            var Email=document.getElementById("email").value;
+            var password=document.getElementById("password").value;
+            var isValid=true;
+
+            var usernamePattern=/^[a-zA-z0-9]{5,}$/;
+            if (usernamePattern.test(username)===false){
+                showError("userError", "username must be at least 5 characters");
+                isValid=false;
+            }
+            else{
+                showError("userError","");
+            }
+
+            var EmailPattern=/^\S+@\S+\.\S+$/;
+            if(EmailPattern.test(Email)===false){
+                showError("EmailError","enter valid email");
+                isValid=false;
+            }
+            else{
+                showError("EmailError","");
+            }
+
+            var passwordPattern=/^.{6,}$/;
+            if(passwordPattern.test(password)===false){
+                showError("passwordError","enter at least 6 character");
+                isValid=false;
+            }
+            else{
+                showError("passwordError","");
+            }
+            if(isValid=== true){
+                alert("Account created successfully");
+            }
+
+            return  isValid;
+        }
+
+    </script>
+    </body>
+    </html>
